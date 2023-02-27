@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { DisplayCampaigns } from '../components';
-import { useStateContext } from '../context';
-
+import { useStateContext } from '../context /index.jsx';
 const Home = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [campaigns, setCampaigns] = useState([]);
